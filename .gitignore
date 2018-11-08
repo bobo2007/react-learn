@@ -1,0 +1,17 @@
+# 依赖
+/node_modules
+# 打包文件
+/build
+
+# Logs
+npm-debugs.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器和IDE
+.idea
+.vscode/*
+
+# misc
+.DS_Store
+

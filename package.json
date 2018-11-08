@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.25.1"
+  },
+	"scripts": {
+		"start": "babel-node tools/run start"	
+	}
+}
