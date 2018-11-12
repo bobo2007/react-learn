@@ -11,6 +11,7 @@ yarn-error.log*
 # 编辑器和IDE
 .idea
 .vscode/*
+*.swp
 
 # misc
 .DS_Store

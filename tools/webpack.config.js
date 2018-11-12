@@ -36,7 +36,8 @@ const config = {
 				pathinfo: isVerbose,
 				filename: isDebug ? '[name].js' : '[name].[chunkhash:8].js',
 				chunFilename: isDebug,
-				
+				// 格式化windows系统中的路径
+				devtoolModuleFilenameTemplate: info => path.resolve(info.absoluteResourcePath).replace(/\\/g, '/') 
 		}
 }
 
