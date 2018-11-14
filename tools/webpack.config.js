@@ -38,6 +38,12 @@ const config = {
 				chunFilename: isDebug,
 				// 格式化windows系统中的路径
 				devtoolModuleFilenameTemplate: info => path.resolve(info.absoluteResourcePath).replace(/\\/g, '/') 
-		}
+		},
+		// 搜索路径
+		resolve: [ 'node_modules', 'src' ],
+
+		module: {
+
+		} 
 }
 
